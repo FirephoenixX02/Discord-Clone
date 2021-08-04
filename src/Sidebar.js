@@ -41,6 +41,7 @@ function Sidebar() {
 
         <div className="sidebar__voiceIcons">
             <InfoOutlinedIcon></InfoOutlinedIcon>
+            <CallIcon></CallIcon>
         </div>
       </div>
     </div>

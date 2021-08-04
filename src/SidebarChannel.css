@@ -1,9 +1,9 @@
-.sidebarChannel:hover > h4 {
+.sidebarChannel:hover h4 {
   color: white;
   background-color: #40464b;
 }
 
-.sidebarChannel > h4 {
+.sidebarChannel h4 {
     display: flex;
     padding-left: 15px;
     align-items: center;
