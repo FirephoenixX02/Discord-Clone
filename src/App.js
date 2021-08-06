@@ -7,6 +7,7 @@ import { selectUser } from "./features/userSlice";
 import Login from "./Login";
 import { auth } from "./firebase";
 import { login, logout } from "./features/userSlice";
+import "./app/store"
 
 function App() {
   const dispatch = useDispatch();
