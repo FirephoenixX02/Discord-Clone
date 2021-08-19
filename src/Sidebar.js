@@ -18,7 +18,7 @@ import "./App";
 function Sidebar() {
   const user = useSelector(selectUser);
   const [channels, setChannels] = useState([]);
-  //Line 66 = user.uid.substring(0 ,5)
+  //Line 93 = user.uid.substring(0 ,5)
 
   useEffect(() => {
     db.collection("channels").onSnapshot((snapshot) => {
